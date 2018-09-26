@@ -27,6 +27,7 @@ services:
       - ./docker_conf:/docker_conf${CACHED}
       - .:/var/www/html${CACHED}
       - /var/www/html/web/typo3temp
+      - /var/www/html/web/fileadmin/_processed_
     environment:
       - USERID=${WEB_USERID}
       - GROUPID=${WEB_GROUPID}

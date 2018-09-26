@@ -24,6 +24,7 @@ fi
 chown :8983 /var/www/html/solrdata/ -R
 
 chown -R www-data. /var/www/html/web/typo3temp
+chown -R www-data. /var/www/html/web/fileadmin/_processed_
 
 # start apache
 exec apache2ctl -D FOREGROUND
