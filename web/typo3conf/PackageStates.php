@@ -137,8 +137,8 @@ return [
         'dyncss' => [
             'packagePath' => 'typo3conf/ext/dyncss/',
         ],
-        'dyncss_less' => [
-            'packagePath' => 'typo3conf/ext/dyncss_less/',
+        'dyncss_scss' => [
+            'packagePath' => 'typo3conf/ext/dyncss_scss/',
         ],
         'frontend_editing' => [
             'packagePath' => 'typo3conf/ext/frontend_editing/',
